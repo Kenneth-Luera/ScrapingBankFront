@@ -26,8 +26,7 @@ const columns = [
         key: 'action',
         render: (_, record) => (
             <Space size="middle">
-                <a>Invite {record.name}</a>
-                <a>Delete</a>
+                <a>Link {"->"} {record.name}</a>
             </Space>
         ),
     },
