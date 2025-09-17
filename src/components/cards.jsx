@@ -40,7 +40,7 @@ const CardBuy = () => {
     return (
         <>
             <div className='flex relative w-full'>
-                <div className='bg-green-600 w-3 h-57 rounded-3xl absolute -left-1'></div>
+                <div className='bg-green-600 w-3 h-full rounded-3xl absolute -left-1'></div>
                 <CardAnt className='w-full' columns={columns} datasource={data} loading={loading} >
                     <p>Mejor Compra</p>
                     <p>{data.name}</p>
