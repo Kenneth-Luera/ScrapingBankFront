@@ -71,10 +71,6 @@ export default function ExchangeRates() {
                     </Card>
                 </div>
                 <Content style={{ padding: '0 48px' }}>
-                    <Breadcrumb
-                        style={{ margin: '16px 0' }}
-                        items={[{ title: 'Home' }, { title: 'List' }, { title: 'App' }]}
-                    />
                     <div className="flex justify-center gap-4 mb-4">
                         <CardBuy />
                         <CardSell />
