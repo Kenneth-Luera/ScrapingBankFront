@@ -53,7 +53,7 @@ export default function ExchangeRates() {
             <Typography>
                 <Header className="flex items-center !bg-white !h-20">
                     <div className="demo-logo" />
-                    <Title>Tipo de cambio</Title>
+                    <Title>Tipo de cambio esto si funciona</Title>
                 </Header>
                 <div className="flex justify-center  p-10">
                     <Card className="w-full flex justify-between p-1">
